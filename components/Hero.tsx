@@ -37,9 +37,14 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
             >
               View My Work <ArrowRight size={18} />
             </a>
-            <button className="bg-zinc-900 border border-zinc-800 text-zinc-100 px-8 py-4 rounded-2xl font-bold flex items-center gap-2 hover:bg-zinc-800 transition-colors">
+            <a 
+              href="https://drive.google.com/file/d/14hv7LAjGl5yXqAbQX_yGc44or2OH542V/view?usp=drive_link" 
+              target="_blank" 
+              rel="noopener"
+              className="bg-zinc-900 border border-zinc-800 text-zinc-100 px-8 py-4 rounded-2xl font-bold flex items-center gap-2 hover:bg-zinc-800 transition-colors"
+            >
               Resume <Download size={18} />
-            </button>
+            </a>
           </div>
           
           <div className="flex items-center gap-6">
