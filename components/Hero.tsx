@@ -65,7 +65,7 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
               is displayed with a modern, high-contrast aesthetic that fits the dark theme.
             */}
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=1200&h=1500&q=90" 
+              src="/olamide-amusan-portfolio/images/profile.png" 
               alt="Olamide Samuel Amusan" 
               className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
             />
