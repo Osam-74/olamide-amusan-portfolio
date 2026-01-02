@@ -27,7 +27,7 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
             <div key={idx} className="group glass-card rounded-[2.5rem] border-zinc-800 overflow-hidden flex flex-col hover:border-indigo-500/30 transition-all duration-500">
               <div className="aspect-video relative overflow-hidden bg-zinc-900">
                 <img 
-                  src={`https://picsum.photos/seed/${idx + 50}/800/450`} 
+                  src={project.image || `https://picsum.photos/seed/${idx + 50}/800/450`} 
                   alt={project.name} 
                   className="w-full h-full object-cover opacity-60 group-hover:scale-105 group-hover:opacity-80 transition-all duration-700"
                 />

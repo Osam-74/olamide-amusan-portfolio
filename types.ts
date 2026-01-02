@@ -26,6 +26,7 @@ export interface Project {
   name: string;
   description: string;
   technologies: string[];
+  image?: string;
   links?: {
     live_demo?: string;
     source_code?: string;
