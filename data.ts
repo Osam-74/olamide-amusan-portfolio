@@ -28,7 +28,7 @@ export const portfolioData: CandidateData = {
       position: "Chief Operating Officer & Lead Developer",
       company: "Enterprise Republic",
       location: "Oyo, Nigeria",
-      period: "October 2022 – Present",
+      period: "October 2022 – August 2025",
       achievements: [
         "Built custom WordPress websites with online store features and member access areas",
         "Successfully moved websites from one server to another with careful planning to avoid any downtime",
@@ -41,7 +41,6 @@ export const portfolioData: CandidateData = {
       position: "Freelance Full-Stack Developer",
       company: "Independent Clients",
       location: "Remote",
-      period: "Ongoing",
       achievements: [
         "Created WordPress websites from scratch, set up online stores, and moved existing sites to new platforms",
         "Built mobile-friendly online store WordPress websites from design mockups",
@@ -53,7 +52,6 @@ export const portfolioData: CandidateData = {
       position: "Freelance Executive/Virtual Assistant",
       company: "Multiple Clients",
       location: "Remote",
-      period: "Ongoing",
       achievements: [
         "Managed executives' schedules, prepared reports, and coordinated meetings to keep operations running smoothly",
         "Handled professional emails and correspondence with clients and partners to maintain strong business relationships",
