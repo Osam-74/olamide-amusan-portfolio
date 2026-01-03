@@ -24,7 +24,7 @@ const CapacityDetail: React.FC = () => {
   }
 
   return (
-    <main className="min-h-screen bg-zinc-950">
+    <div className="min-h-screen bg-zinc-950">
       <div className="max-w-7xl mx-auto px-6 py-12">
         {/* Back Button */}
         <Link to="/#capacities" className="flex items-center gap-2 text-zinc-400 hover:text-indigo-400 mb-12 transition-colors">
@@ -165,7 +165,7 @@ const CapacityDetail: React.FC = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

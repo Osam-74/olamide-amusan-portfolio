@@ -41,6 +41,7 @@ export const portfolioData: CandidateData = {
       position: "Freelance Full-Stack Developer",
       company: "Independent Clients",
       location: "Remote",
+      period: "2020 - Present",
       achievements: [
         "Created WordPress websites from scratch, set up online stores, and moved existing sites to new platforms",
         "Built mobile-friendly online store WordPress websites from design mockups",
@@ -52,6 +53,7 @@ export const portfolioData: CandidateData = {
       position: "Executive/Virtual Assistant",
       company: "Multiple Clients",
       location: "Remote",
+      period: "2021 - Present",
       achievements: [
         "Managed executives' schedules, prepared reports, and coordinated meetings to keep operations running smoothly",
         "Handled professional emails and correspondence with clients and partners to maintain strong business relationships",
