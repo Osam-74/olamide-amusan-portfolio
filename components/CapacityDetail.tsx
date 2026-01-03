@@ -45,18 +45,23 @@ const CapacityDetail: React.FC = () => {
               <h2 className="text-3xl font-bold mb-4">About This Capacity</h2>
               <p className="text-zinc-300 leading-relaxed whitespace-pre-line">{capacity.overview}</p>
             </div>
-              <h2 className="text-3xl font-bold mb-8">Key Skills</h2>
-              <div className="grid grid-cols-2 gap-4">
-                {capacity.keySkills?.map((skill: string) => (
-                  <div
-                    key={skill}
-                    className="glass-card p-4 rounded-2xl border border-zinc-800 hover:border-indigo-500/30 transition-all"
-                  >
-                    <p className="text-zinc-200 font-semibold">{skill}</p>
-                  </div>
-                ))}
+
+            {/* Skills */}
+            {capacity.keySkills && capacity.keySkills.length > 0 && (
+              <div className="mb-16">
+                <h2 className="text-3xl font-bold mb-8">Key Skills</h2>
+                <div className="grid grid-cols-2 gap-4">
+                  {capacity.keySkills?.map((skill: string) => (
+                    <div
+                      key={skill}
+                      className="glass-card p-4 rounded-2xl border border-zinc-800 hover:border-indigo-500/30 transition-all"
+                    >
+                      <p className="text-zinc-200 font-semibold">{skill}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
+            )}
 
             {/* Projects */}
             {capacity.projects && capacity.projects.length > 0 && (
